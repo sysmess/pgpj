@@ -1,0 +1,34 @@
+.svg-map {
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+    stroke: #cae5f5;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.svg-map__location {
+    fill: #0096ff;
+    cursor: pointer;
+}
+.svg-map__location:focus, .svg-map__location:hover {
+    fill: #129dff;
+    outline: 0;
+}
+.svg-map__location[aria-checked="true"] {
+    fill: #f84049!important;
+    stroke: #cae5f5;
+    stroke-width: 1;
+}
+.tooltip {
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid darkgray;
+    background-color: white;
+    z-index: 100;
+}
+
+.tooltip-gray {
+    color: #aaa;
+}

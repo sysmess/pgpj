@@ -1,0 +1,15 @@
+Create Js from Svg:
+------------------------------------------
+npx (using directly without installation)
+npx @svg-maps/cli [command]
+
+Usage: svg-maps [options] [command]
+Options:
+  -v, --version                  output the version number
+  -h, --help                     output usage information
+Commands:
+  add                            Create a new map package with the same format as svg-maps
+  generate <file.svg> [file.js]  Generate JS file from SVG file
+
+------------------------------------------
+npx @svg-maps/cli generate russia.svg russia.js
